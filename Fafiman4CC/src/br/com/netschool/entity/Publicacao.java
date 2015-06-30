@@ -11,6 +11,9 @@ public class Publicacao {
 	private Integer pagina;
 	private List<Exemplar> exemplars = new ArrayList<Exemplar>();
 	private Editora editora;
+	private Categoria categoria;
+	private List<AutorPublicacao> autorPublicacaos = new ArrayList<AutorPublicacao>();
+	
 	
 	public Long getId() {
 		return id;
@@ -47,6 +50,18 @@ public class Publicacao {
 	}
 	public void setEditora(Editora editora) {
 		this.editora = editora;
+	}
+	public Categoria getCategoria() {
+		return categoria;
+	}
+	public void setCategoria(Categoria categoria) {
+		this.categoria = categoria;
+	}
+	public List<AutorPublicacao> getAutorPublicacaos() {
+		return autorPublicacaos;
+	}
+	public void setAutorPublicacaos(List<AutorPublicacao> autorPublicacaos) {
+		this.autorPublicacaos = autorPublicacaos;
 	}
 	
 

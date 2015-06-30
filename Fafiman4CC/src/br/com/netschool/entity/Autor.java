@@ -1,13 +1,9 @@
 package br.com.netschool.entity;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Editora {
+public class Autor {
 	
 	private Long id;
 	private String nome;
-	private List<Publicacao> publicacaos = new ArrayList<Publicacao>();
 	private AutorPublicacao autorPublicacao;
 	
 	public Long getId() {
@@ -22,19 +18,11 @@ public class Editora {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public List<Publicacao> getPublicacaos() {
-		return publicacaos;
-	}
-	public void setPublicacaos(List<Publicacao> publicacaos) {
-		this.publicacaos = publicacaos;
-	}
 	public AutorPublicacao getAutorPublicacao() {
 		return autorPublicacao;
 	}
 	public void setAutorPublicacao(AutorPublicacao autorPublicacao) {
 		this.autorPublicacao = autorPublicacao;
 	}
-	
-	
 
 }
