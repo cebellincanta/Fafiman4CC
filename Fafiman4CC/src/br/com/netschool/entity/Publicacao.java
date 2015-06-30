@@ -10,6 +10,7 @@ public class Publicacao {
 	private String titulo;
 	private Integer pagina;
 	private List<Exemplar> exemplars = new ArrayList<Exemplar>();
+	private Editora editora;
 	
 	public Long getId() {
 		return id;
@@ -40,6 +41,12 @@ public class Publicacao {
 	}
 	public void setExemplars(List<Exemplar> exemplars) {
 		this.exemplars = exemplars;
+	}
+	public Editora getEditora() {
+		return editora;
+	}
+	public void setEditora(Editora editora) {
+		this.editora = editora;
 	}
 	
 
