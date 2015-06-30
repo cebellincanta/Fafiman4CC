@@ -13,7 +13,7 @@ public class Publicacao {
 	private Editora editora;
 	private Categoria categoria;
 	private List<AutorPublicacao> autorPublicacaos = new ArrayList<AutorPublicacao>();
-	
+	private AssuntoPublicacao assuntoPublicacao;
 	
 	public Long getId() {
 		return id;
@@ -63,6 +63,13 @@ public class Publicacao {
 	public void setAutorPublicacaos(List<AutorPublicacao> autorPublicacaos) {
 		this.autorPublicacaos = autorPublicacaos;
 	}
+	public AssuntoPublicacao getAssuntoPublicacao() {
+		return assuntoPublicacao;
+	}
+	public void setAssuntoPublicacao(AssuntoPublicacao assuntoPublicacao) {
+		this.assuntoPublicacao = assuntoPublicacao;
+	}
+
 	
 
 }

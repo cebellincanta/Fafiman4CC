@@ -13,6 +13,8 @@ public class Revista extends Publicacao{
 	public void setPublicacao(Date publicacao) {
 		this.publicacao = publicacao;
 	}
+
+
 	
 	
 
