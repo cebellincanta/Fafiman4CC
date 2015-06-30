@@ -1,5 +1,6 @@
 package br.com.netschool.entity;
 
+
 public abstract class Pessoa {
 	
 	private Long id;
