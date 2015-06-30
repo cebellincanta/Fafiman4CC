@@ -1,5 +1,10 @@
 package br.com.netschool.entity.enuns;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import br.com.netschool.entity.PessoaFisica;
+
 public enum TipoPessoa {
 	
 	DIR("Diretor"),
@@ -7,7 +12,9 @@ public enum TipoPessoa {
 	FUN("Funconário"),
 	Aca("Aluno");
 	
-	String tipoPessoa;
+	private String tipoPessoa;
+	
+	
 	
 	TipoPessoa(String tipoPessoa){
 		this.tipoPessoa = tipoPessoa;

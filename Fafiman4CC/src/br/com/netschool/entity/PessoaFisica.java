@@ -2,6 +2,8 @@ package br.com.netschool.entity;
 
 import java.util.Date;
 
+import br.com.netschool.entity.enuns.TipoPessoa;
+
 public class PessoaFisica extends Pessoa{
 	
 	
@@ -9,6 +11,7 @@ public class PessoaFisica extends Pessoa{
 	private String nome;
 	private String email;
 	private Date nascimento;
+	private TipoPessoa tipoPessoa;
 	
 
 	public String getNome() {
@@ -28,6 +31,12 @@ public class PessoaFisica extends Pessoa{
 	}
 	public void setNascimento(Date nascimento) {
 		this.nascimento = nascimento;
+	}
+	public TipoPessoa getTipoPessoa() {
+		return tipoPessoa;
+	}
+	public void setTipoPessoa(TipoPessoa tipoPessoa) {
+		this.tipoPessoa = tipoPessoa;
 	}
 	
 	
