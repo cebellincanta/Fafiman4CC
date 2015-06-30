@@ -1,0 +1,17 @@
+package br.com.netschool.entity;
+
+public class Funcionario extends PessoaFisica{
+	
+	private String funcao;
+	
+	public String getFuncao() {
+		return funcao;
+	}
+
+	public void setFuncao(String funcao) {
+		this.funcao = funcao;
+	}
+
+
+
+}
